@@ -1,6 +1,6 @@
 {
   "name": "hunterbool",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -10,6 +10,7 @@
     "lint": "next lint",
     "eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "eslint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "release": "standard-version",
     "commit": "cz"
   },
   "dependencies": {
@@ -36,6 +37,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.3.3",
+    "standard-version": "^9.5.0",
     "typescript": "^5"
   },
   "config": {
