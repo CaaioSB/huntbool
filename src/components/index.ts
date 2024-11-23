@@ -1,5 +1,0 @@
-export { default as Footer } from './footer'
-export { default as Header } from './header'
-export { default as IconButton } from './icon-button'
-export { default as Link } from './link'
-export { default as Logo } from './logo'
