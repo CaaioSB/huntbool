@@ -7,7 +7,8 @@ import { ThemeProvider, useTheme } from "next-themes";
 import * as React from "react";
 import { LuMoon, LuSun } from "react-icons/lu";
 
-export interface ColorModeProviderProps extends ThemeProviderProps {}
+export interface ColorModeProviderProps
+  extends Omit<ThemeProviderProps, "theme"> {}
 
 export function ColorModeProvider({
   children,
