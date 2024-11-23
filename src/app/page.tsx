@@ -38,8 +38,8 @@ const workingMode = createListCollection({
 
 export default function Page() {
   return (
-    <Center w="svw" h="svh">
-      <Card.Root w={"1/3"} variant="outline">
+    <Center p="10" w="svw" minH="svh">
+      <Card.Root w={{ base: "1/3", lgDown: "full" }} variant="outline">
         <Card.Body>
           <Card.Title
             display="flex"
@@ -94,7 +94,7 @@ export default function Page() {
               <Input />
             </Field>
 
-            <Card.Root size="sm">
+            <Card.Root w="full" size="sm">
               <Card.Body>
                 <Card.Title>👻 vagas fantasmas</Card.Title>
                 <Card.Description>
