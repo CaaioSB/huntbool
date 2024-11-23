@@ -1,6 +1,16 @@
-# Next.js Boilerplate
+# hunterbool
 
-Este repositório é um boilerplate projetado para facilitar o início do desenvolvimento de landing pages usando Next.js, React e TailwindCSS. O objetivo deste boilerplate é fornecer uma base sólida e configurada com as melhores práticas, permitindo que você se concentre no desenvolvimento de sua aplicação sem se preocupar com a configuração inicial.
+Este repositório é um projeto iniciado para ajudar todo mundo a encontrar vagas no LinkedIn de maneira mais assertiva. A principal dor são as vagas fantasmas, e com a evolução do projeto poderemos chegar nas empresas que não praticam spam de vagas.
+
+#### Issues
+
+Sinta-se a vontade para criar issues, seja para sugestões, bugs ou qualquer outro assunto que julgar necessário.
+
+#### Pull requests
+
+A contribuição é totalmente aberta, no que você achar que pode ajudar basta abrir uma pull request a partir da main com as alterações.
+
+Caso tenha dificuldades em contribuir, envie-me um [email](mailto:contato@caiosb.com) que eu auxilio em como prosseguir.
 
 ## Tecnologias e Ferramentas
 
@@ -8,11 +18,9 @@ Este repositório é um boilerplate projetado para facilitar o início do desenv
 
 - **Next.js** (versão 14.2.6): O framework React utilizado para criar aplicações web. Ele oferece funcionalidades como renderização híbrida, roteamento baseado em páginas, e suporte a APIs.
 
-### TailwindCSS
+### Chakra UI
 
-- **TailwindCSS** (versão 3.4.1): Uma biblioteca de utilitários CSS que permite criar rapidamente layouts personalizados diretamente nos arquivos de HTML e JSX, sem sair do seu código.
-
-- **Tailwind Variants** (versão 0.2.1): Uma extensão para TailwindCSS que facilita a criação de componentes altamente configuráveis e reutilizáveis.
+- **Chakra UI** (versão 3.2.0): Uma biblioteca de componentes para construir com mais agilidade.
 
 ### TypeScript
 
